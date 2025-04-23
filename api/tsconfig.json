@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "verbatimModuleSyntax": true,
+      "baseUrl": ".",
+      "paths": {
+        "@api/*": ["./*"],
+        "@shared/*": ["../shared/*"]
+      }
+    },
+    "include": ["./**/*", "../shared/**/*"],
+  }
+  

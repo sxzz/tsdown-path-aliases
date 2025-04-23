@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@shared/*": ["../shared/*"]
+      }
+    },
+    "include": ["../shared/**/*"],
+    // do not allow api imports
+    "exclude": ["../api/**/*"]
+  }
+  

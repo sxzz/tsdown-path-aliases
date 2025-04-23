@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "verbatimModuleSyntax": true,
+      "sourceMap": true,
+      "moduleDetection": "force",
+      "allowJs": true,
+      "noEmit": true,
+      "moduleResolution": "bundler",
+      "module": "Preserve",
+    }
+  }
+  
